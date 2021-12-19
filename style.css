@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+#navbar{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+#navbar li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 20px;
+    color: white;
+}
+#navbar li{
+    display: inline-block;
+}
+#logo{
+    display: inline-block;
+    background-color: rgb(21, 122, 109);
+}
+#icon{
+    display: inline-block;
+    width: 8%;
+    background-color: black;
+    color: white;
+    text-align: right;
+
+}
+#nav{
+    display: inline-block;
+    width: 90%;
+}
+/* hover */
+#nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#nav ul li a#logo:hover{
+    color: black;
+    background-color: gray;
+}
+#logo :hover{
+    color: black;
+    background-color: gray  ;
+}
+#intro{
+    background-image: url("img/download\ \(4\).jpg") ;
+    height: 100vh;
+    background-size: cover;
+    
+}
+#intro h1{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    padding: 20px 40px;
+    font-size: 24px;
+
+}
